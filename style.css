@@ -1,6 +1,6 @@
 body {
   background-color: #222244;
-  color: #eecc00;
+  color: #DDDDDD;
   font-family: consolas;
   margin = 10%, 20%;
 }
@@ -9,19 +9,17 @@ a {
   color: #eeff22;
 }
 
-a:link {
-  color: #eeff00;
-}
 
 a:hover {
-  font-weight:bold;
+  font-weight: bold;
 }
 
 a:visited {
-  
+  color: #eeaa00;
 }
 
 .Intro {
+  text-align: center;
   border-bottom: 2px solid;
   background-color: #000044;
   color: #EEEEEE
@@ -30,23 +28,35 @@ a:visited {
 .section-header {
   text-align: center;
   text-transform: uppercase;
+  font-weight: bold;
   border-top: 2px solid;
   border-bottom: 2px solid;
   background-color: #000044;
   color: #EEEEEE;
 }
 
-. sub-header {
+.sub-header {
+  text-transform: uppercase;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+.sub-header-top {
   text-transform: uppercase;
   border-bottom: 1px solid;
 }
+.sub-header-bottom {
+  text-transform: uppercase;
+  border-top: 1px solid;
+}
+.sub-header-borderless {
+  text-transform: uppercase;
+}
 
 .bullets {
-  text-align:left;
+  color: #
 }
 
 .narrative {
-  color: #FFFFFF;
+  color: #DDDDDD;
 }
-
 
