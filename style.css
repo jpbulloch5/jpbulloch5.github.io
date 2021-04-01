@@ -1,1 +1,52 @@
+body {
+  background-color: #222244;
+  color: #eecc00;
+  font-family: consolas;
+  margin = 10%, 20%;
+}
+
+a {
+  color: #eeff22;
+}
+
+a:link {
+  color: #eeff00;
+}
+
+a:hover {
+  font-weight:bold;
+}
+
+a:visited {
+  
+}
+
+.Intro {
+  border-bottom: 2px solid;
+  background-color: #000044;
+  color: #EEEEEE
+}
+
+.section-header {
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  background-color: #000044;
+  color: #EEEEEE;
+}
+
+. sub-header {
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+}
+
+.bullets {
+  text-align:left;
+}
+
+.narrative {
+  color: #FFFFFF;
+}
+
 
