@@ -2,7 +2,8 @@ body {
   background-color: #222244;
   color: #DDDDDD;
   font-family: consolas;
-  margin = 10%, 20%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 a {
@@ -28,7 +29,7 @@ img {
   text-align: center;
   border-bottom: 4px solid;
   background-color: #000044;
-  color: #EEEEEE
+  color: #EEEEEE;
 }
 
 .section-header {
@@ -45,32 +46,43 @@ img {
   text-transform: uppercase;
   border-top: 1px solid;
   border-bottom: 1px solid;
-  padding-left: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .sub-header-top {
   text-transform: uppercase;
   border-bottom: 1px solid;
-  padding-left: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .sub-header-bottom {
   text-transform: uppercase;
   border-top: 1px solid;
-  padding-left: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .sub-header-borderless {
   text-transform: uppercase;
-  padding-left: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .bullets {
-  color: ##DDDDDD;
+  color: #DDDDDD;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .narrative {
   color: #DDDDDD;
-  padding-left: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.center-text {
+  text-align: center;
 }
 
