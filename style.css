@@ -20,7 +20,7 @@ a:visited {
 
 .Intro {
   text-align: center;
-  border-bottom: 2px solid;
+  border-bottom: 4px solid;
   background-color: #000044;
   color: #EEEEEE
 }
@@ -40,20 +40,23 @@ a:visited {
   border-top: 1px solid;
   border-bottom: 1px solid;
 }
+
 .sub-header-top {
   text-transform: uppercase;
   border-bottom: 1px solid;
 }
+
 .sub-header-bottom {
   text-transform: uppercase;
   border-top: 1px solid;
 }
+
 .sub-header-borderless {
   text-transform: uppercase;
 }
 
 .bullets {
-  color: #
+  color: ##DDDDDD;
 }
 
 .narrative {
