@@ -28,14 +28,14 @@ html[data-theme='dark'] {
   color: var(--color-headings);
   padding-top: 10%;
   padding-left: 15%;
-  padding-right: 20%;
+  padding-right: 30%;
   border-radius: 0px;
   
   display: grid;
-  grid-template-columns: 80% auto;
+  grid-template-columns: 100% auto;
   grid-template-rows: 50% auto;
   grid-template-areas: 
-    "title switch"
+    "title switch";
 }
 
 input[type=checkbox]{
