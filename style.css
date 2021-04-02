@@ -125,6 +125,10 @@ img {
   padding: 5px;
 }
 
+p {
+  color: var(--color-text);
+}
+
 .Intro {
   text-align: center;
   border-bottom: 4px solid;
