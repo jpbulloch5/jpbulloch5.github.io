@@ -26,6 +26,7 @@ html[data-theme='dark'] {
 .container {
   background-color: var(--bg-panel);
   color: var(--color-headings);
+  padding-top: 10%;
   padding-left: 15%;
   padding-right: 20%;
   border-radius: 0px;
