@@ -69,7 +69,7 @@ label:after {
 }
 
 input:checked + label {
-	background: var(--color-headings);
+	background: var(--bg);
 }
 
 input:checked + label:after {
@@ -85,7 +85,7 @@ html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  transition: all 750ms !important;
+  transition: all 200ms !important;
   transition-delay: 0 !important;
 }
 
