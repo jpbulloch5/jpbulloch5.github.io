@@ -6,6 +6,8 @@ html {
   align-items: center;
   justify-items: center;
   
+  line-height: 15pt;
+  
   --bg: #cccccc;
   --bg-panel: #779966;
   --bg-narrative: #f8f8f8;
@@ -187,6 +189,7 @@ p {
 
 .narrative {
   font-size: 14pt;
+  line-height: 18pt;
   color: var(--color-narrative);
   background: var(--bg-narrative);
   padding-left: 10%;
