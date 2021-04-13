@@ -85,9 +85,9 @@ body {
 header {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 105%;
     min-width: 400;
-    margin-left: -10%;
+    margin-left: -15%;
     border-bottom: 2px solid;
     padding: 1em;
     text-align: center;
