@@ -86,10 +86,11 @@ header {
     position: fixed;
     top: 0;
     width: 105%;
-    min-width: 400;
     margin-left: -15%;
+    padding-left: 2%;
+    padding-right: 50%;
+    padding-bottom: 1em;
     border-bottom: 2px solid;
-    padding: 1em;
     text-align: center;
     font-size: 14px;
     font-weight: bold;
