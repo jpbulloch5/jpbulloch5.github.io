@@ -150,6 +150,14 @@ img {
     border-radius: 15px;
 }
 
+.project {
+    padding: 1em;
+    margin: 1em;
+    background-color: var(--bg-panel);
+    color: var(--color-headings);
+    border-radius: 15px;
+}
+
 section {
     border-radius: 15px 15px 0 0;
     margin-bottom: 15px;
@@ -200,6 +208,7 @@ section {
     background-color: var(--bg);
     padding-left: 10%;
     padding-right: 10%;
+    font-size: 12;
 }
 
 .narrative {
@@ -213,6 +222,19 @@ section {
     padding-bottom: 1em;
     margin: 0;
     border-radius: 0 0 15px 15px;
+}
+
+.project_narrative {
+    font-size: 14pt;
+    line-height: 18pt;
+    color: var(--color-narrative);
+    background: var(--bg-narrative);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0;
+    border-radius: 15px;
 }
 
 .bottom-buffer {
