@@ -46,19 +46,18 @@
     <section>
         <div id="coding" class="link-offset"></div>
         <div class="section-header">
-            <h2>Coding Experience</h3>
+            <h2>Coding Experience (industry equivalent in months)</h3>
         </div>
-
-        <div class="bullets">
-            <ul class="columns">
-                <li>Azure DevOps - 9mo</li>
-                <li>Java - 3mo</li>
-                <li>Git - 6mo</li>
-                <li>Python - 3mo</li>
-                <li>Docker - 6mo</li>
-                <li>Ansible - 3mo</li>
-                <li>PostgreSQL - 3mo</li>
-                <li>SonarCloud - 3mo</li>
+        <div class="narrative">
+            <ul >
+                <li>Azure DevOps - 18</li>
+                <li>Git - 15</li>
+                <li>Docker - 12</li>
+                <li>Kubernetes - 6</li>
+                <li>Azure - 6</li>
+                <li>Ansible - 3</li>
+                <li>Python - 3</li>
+                <li>Jenkins - 3</li>
             </ul>
         </div>
     </section>
@@ -71,23 +70,78 @@
 
         <div>
             <div class="project">
-                <h3>Automating Agile - 06/2021 - DevOps Engineer - <a href="https://dev.azure.com/revature-training-uta/Flock%20of%20Hawks/_git/team_e_p1_webapp">Azure DevOps Repo</a></h3>
-                <p class="project_narrative">
+                <h3>Cluster of Cards - 07/2021 - <a href="https://dev.azure.com/revature-training-uta/Singularity%20Engine/_git/Mono%20Repo">Azure DevOps Repo</a></h3>
+                <div class="project_narrative">
+                    <b>Description:</b> <br>
+                    An existing Java application is migrated to Kubernetes with CI/CD and cloud deployment. The application provides and stores quizzes built from flashcards. Microservice architecture with containerization, eventual consistency, and service discovery allows loose coupling from development all the way to runtime. Multiple CI/CD pipelines using different tools with multiple deployment environments tied to source control branches ensure robustness.
+                    <b>Roles/Responsibilities:</b> <br>
+                    Python Developer
+                    <ul>
+                        <li>SDLC - Built and maintained Agile project board in ADO</li>
+                        <li>Infrastructure - Setup Azure Resource Group (ARG), Azure Container Repository (ACR), and Azure Kubernetes Service (AKS)</li>
+                        <li>CI - Built mono-repo ADO pipeline to containerize each microservice</li>
+                        <li>Containerization - Built containers for each microservice; networked and tested</li>
+                        <li>Orchestration - Built Kubernetes cluster to utilize containerized microservices as a cluster</li>
+                        <li>CI/Analysis - Add mono-repo sonarCloud analysis to the CI pipeline</li>
+                        <li>CD - Created AKS deployment environment in ADO</li>
+                        <li>CD - Automate deployment of each microservice to AKS in CD pipeline</li>
+                        <li>IaC - Synchronize ADO pipeline versioning from microservice pom.xml files</li>
+                    </ul>
+                    <br><b>Tools/Technologies:</b> <br>
+                    Azure DevOps, Docker, Azure, SonarQube, Java, Tomcat, Git, Jenkins, Spring Boot, Kubernetes, Azure Kubernetes Service, Groovy
+                </div>
+            </div>
+
+        <div>
+            <div class="project">
+                <h3>Automating Agile - 06/2021 - <a href="https://dev.azure.com/revature-training-uta/Flock%20of%20Hawks/_git/team_e_p1_webapp">Azure DevOps Repo</a></h3>
+                <div class="project_narrative">
                     <b>Description:</b> <br>
                     An existing Java application is augmented with tooling to support Agile values in a DevOps workflow with CI/CD. The servlet-based application exposes simple CRUD operations using a custom ORM library that's versioned and published from a separate code repository. A project board, containerization, static analysis, and documentation contribute to short feedback loops and higher product quality. <br>
+                    <b>Roles/Responsibilities:</b> <br>
+                    Python Developer
+                    <ul>
+                        <li>Coding/OOP - Build table object to mimic an SQL table</li>
+                        <li>Coding/OOP - Build keySet object to generate serial primary keys</li>
+                        <li>Coding/OOP - Build keyTable object to combine keySet and table objects</li>
+                        <li>Coding/OOP - Build AssetManagementTable as a case for a specific implementation of the keyTable object</li>
+                        <li>Scripting/Testing - Build CLI-driven tests</li>
+                        <li>Coding/OOP - Build a menu-driven terminal interface; design menu object for easy reusability in future projects</li>
+                    </ul>
+                    DevOps Engineer
+                    <ul>
+                        <li>Automation - Build Ansible playbooks to provision the virtual environment</li>
+                        <li>Automation - Build playbook to automate testing the application</li>
+                        <li>Automation - Build playbook to deploy the application to several virtual machines at once</li>
+                        <li>IaC - Keep application code and automation infrastructure versioned together in Git Hub</li>
+                    </ul>
                     <br><b>Tools/Technologies:</b> <br>
                     Azure DevOps, Docker, PostgreSQL, Ansible, Java, Tomcat, Git, SonarCloud, Bash, SSH
-                </p>
+                </div>
             </div>
 
             <div class="project">
-                <h3>Pushing Python - 05/2021 - Python Developer, DevOps Engineer - <a href="https://github.com/jpbulloch5/pushing-python">Git Hub Repo</a></h3>
-                <p class="project_narrative">
+                <h3>Pushing Python - 05/2021 - <a href="https://github.com/jpbulloch5/pushing-python">Git Hub Repo</a></h3>
+                <div class="project_narrative">
                     <b>Description:</b> <br>
-                    A proof-of-concept implementation of a relational database is built using pure-Python by leveraging native Python data-structures, chiefly dicts, to mimic the behavior of an SQL database.  The application is deployed via Ansible playbooks to multiple virtual-machines, installing needed dependencies on the remote hosts and ensuring the correct version of Python (version 3.9) is properly configured.  Version control and code deployment are provided by Git. <br>
+                    A proof-of-concept implementation of a relational database is built programmatically by leveraging native data structures to mimic the behavior of an SQL database. Application testing, virtual environment configuration, and deployment to multiple virtual machines are automated. <br>
+                    <b>Roles/Responsibilities:</b> <br>
+                    <ul>
+                        <li>SDLC - Built and managed Agile project board</li>
+                        <li>VCS - Adapted original Git Hub repo to Azure DevOps repo</li>
+                        <li>IaC - Implemented (IaC) to project VCS by storing/versioning CI/CD pipelines with the codebase</li>
+                        <li>CI - Built pipeline for custom ORM dependency</li>
+                        <li>CI - Built pipeline for packaging the WebApp WAR file</li>
+                        <li>Containerization - Designed multi-stage Docker build from Maven to Tomcat to encapsulate the WebApp</li>
+                        <li>CI - Automated containerization and push to Docker Hub from pipeline</li>
+                        <li>CI/Testing - Automated testing using Postman; runs developer-supplied tests</li>
+                        <li>CI/Analysis - Automated sonarCloud analysys for the CI pipelines</li>
+                        <li>CD - Setup ADO production environment rules to require authorization prior to deployment</li>
+                        <li>Automation - Automated message-sending via webhook to team Discord server; notifies when authorization is needed</li>
+                    </ul>
                     <br><b>Tools/Technologies:</b> <br>
                     Python3, Python-venv, Pip, Ansible, Bash, SSH, Git
-                </p>
+                </div>
             </div>
 
         </div>
